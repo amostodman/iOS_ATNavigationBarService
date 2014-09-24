@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C419423219D377F000C85F8C /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C419423319D377F000C85F8C /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				C419423619D377FD00C85F8C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C419420B19D3771900C85F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C419420A19D3771900C85F8C /* main.m */; };
+		C419420E19D3771900C85F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C419420D19D3771900C85F8C /* AppDelegate.m */; };
+		C419421119D3771900C85F8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C419421019D3771900C85F8C /* ViewController.m */; };
+		C419421419D3771900C85F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C419421219D3771900C85F8C /* Main.storyboard */; };
+		C419421619D3771900C85F8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C419421519D3771900C85F8C /* Images.xcassets */; };
+		C419421919D3771900C85F8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C419421719D3771900C85F8C /* LaunchScreen.xib */; };
+		C419422519D3771900C85F8C /* ATNavigationBarServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C419422419D3771900C85F8C /* ATNavigationBarServiceTests.m */; };
+		C419423C19D379B100C85F8C /* ATNavigationBarService.m in Sources */ = {isa = PBXBuildFile; fileRef = C419423B19D379B100C85F8C /* ATNavigationBarService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C419421F19D3771900C85F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C41941FD19D3771900C85F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C419420419D3771900C85F8C;
+			remoteInfo = ATNavigationBarService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C419420519D3771900C85F8C /* ATNavigationBarService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATNavigationBarService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C419420919D3771900C85F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C419420A19D3771900C85F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C419420C19D3771900C85F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C419420D19D3771900C85F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C419420F19D3771900C85F8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C419421019D3771900C85F8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C419421319D3771900C85F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C419421519D3771900C85F8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C419421819D3771900C85F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C419421E19D3771900C85F8C /* ATNavigationBarServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATNavigationBarServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C419422319D3771900C85F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C419422419D3771900C85F8C /* ATNavigationBarServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNavigationBarServiceTests.m; sourceTree = "<group>"; };
+		C419423A19D379B100C85F8C /* ATNavigationBarService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNavigationBarService.h; sourceTree = "<group>"; };
+		C419423B19D379B100C85F8C /* ATNavigationBarService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNavigationBarService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C419420219D3771900C85F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C419421B19D3771900C85F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C41941FC19D3771900C85F8C = {
+			isa = PBXGroup;
+			children = (
+				C419423A19D379B100C85F8C /* ATNavigationBarService.h */,
+				C419423B19D379B100C85F8C /* ATNavigationBarService.m */,
+				C419420719D3771900C85F8C /* ATNavigationBarService */,
+				C419422119D3771900C85F8C /* ATNavigationBarServiceTests */,
+				C419420619D3771900C85F8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C419420619D3771900C85F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C419420519D3771900C85F8C /* ATNavigationBarService.app */,
+				C419421E19D3771900C85F8C /* ATNavigationBarServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C419420719D3771900C85F8C /* ATNavigationBarService */ = {
+			isa = PBXGroup;
+			children = (
+				C419422E19D3773B00C85F8C /* Application */,
+				C419420819D3771900C85F8C /* Supporting Files */,
+			);
+			path = ATNavigationBarService;
+			sourceTree = "<group>";
+		};
+		C419420819D3771900C85F8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C419420919D3771900C85F8C /* Info.plist */,
+				C419420A19D3771900C85F8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C419422119D3771900C85F8C /* ATNavigationBarServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C419422419D3771900C85F8C /* ATNavigationBarServiceTests.m */,
+				C419422219D3771900C85F8C /* Supporting Files */,
+			);
+			path = ATNavigationBarServiceTests;
+			sourceTree = "<group>";
+		};
+		C419422219D3771900C85F8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C419422319D3771900C85F8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C419422E19D3773B00C85F8C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C419420C19D3771900C85F8C /* AppDelegate.h */,
+				C419420D19D3771900C85F8C /* AppDelegate.m */,
+				C419420F19D3771900C85F8C /* ViewController.h */,
+				C419421019D3771900C85F8C /* ViewController.m */,
+				C419421219D3771900C85F8C /* Main.storyboard */,
+				C419421519D3771900C85F8C /* Images.xcassets */,
+				C419421719D3771900C85F8C /* LaunchScreen.xib */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C419420419D3771900C85F8C /* ATNavigationBarService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C419422819D3771900C85F8C /* Build configuration list for PBXNativeTarget "ATNavigationBarService" */;
+			buildPhases = (
+				C419420119D3771900C85F8C /* Sources */,
+				C419420219D3771900C85F8C /* Frameworks */,
+				C419420319D3771900C85F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATNavigationBarService;
+			productName = ATNavigationBarService;
+			productReference = C419420519D3771900C85F8C /* ATNavigationBarService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C419421D19D3771900C85F8C /* ATNavigationBarServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C419422B19D3771900C85F8C /* Build configuration list for PBXNativeTarget "ATNavigationBarServiceTests" */;
+			buildPhases = (
+				C419421A19D3771900C85F8C /* Sources */,
+				C419421B19D3771900C85F8C /* Frameworks */,
+				C419421C19D3771900C85F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C419422019D3771900C85F8C /* PBXTargetDependency */,
+			);
+			name = ATNavigationBarServiceTests;
+			productName = ATNavigationBarServiceTests;
+			productReference = C419421E19D3771900C85F8C /* ATNavigationBarServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C41941FD19D3771900C85F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = TeamAmos;
+				TargetAttributes = {
+					C419420419D3771900C85F8C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C419421D19D3771900C85F8C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C419420419D3771900C85F8C;
+					};
+					C419423219D377F000C85F8C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = C419420019D3771900C85F8C /* Build configuration list for PBXProject "ATNavigationBarService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C41941FC19D3771900C85F8C;
+			productRefGroup = C419420619D3771900C85F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C419420419D3771900C85F8C /* ATNavigationBarService */,
+				C419421D19D3771900C85F8C /* ATNavigationBarServiceTests */,
+				C419423219D377F000C85F8C /* Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C419420319D3771900C85F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C419421419D3771900C85F8C /* Main.storyboard in Resources */,
+				C419421919D3771900C85F8C /* LaunchScreen.xib in Resources */,
+				C419421619D3771900C85F8C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C419421C19D3771900C85F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C419423619D377FD00C85F8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"afewdevelopers.com\";\ncompanyID=\"com.afewdevelopers\";\ncompanyURL=\"http://www.afewdevelopers.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/Desktop/Stuff/navDocs\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n--index-desc \"${PROJECT_DIR}/index.desc\" \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C419420119D3771900C85F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C419421119D3771900C85F8C /* ViewController.m in Sources */,
+				C419420E19D3771900C85F8C /* AppDelegate.m in Sources */,
+				C419423C19D379B100C85F8C /* ATNavigationBarService.m in Sources */,
+				C419420B19D3771900C85F8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C419421A19D3771900C85F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C419422519D3771900C85F8C /* ATNavigationBarServiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C419422019D3771900C85F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C419420419D3771900C85F8C /* ATNavigationBarService */;
+			targetProxy = C419421F19D3771900C85F8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C419421219D3771900C85F8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C419421319D3771900C85F8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C419421719D3771900C85F8C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C419421819D3771900C85F8C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C419422619D3771900C85F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C419422719D3771900C85F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C419422919D3771900C85F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATNavigationBarService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C419422A19D3771900C85F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATNavigationBarService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C419422C19D3771900C85F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ATNavigationBarServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATNavigationBarService.app/ATNavigationBarService";
+			};
+			name = Debug;
+		};
+		C419422D19D3771900C85F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ATNavigationBarServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATNavigationBarService.app/ATNavigationBarService";
+			};
+			name = Release;
+		};
+		C419423419D377F000C85F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C419423519D377F000C85F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C419420019D3771900C85F8C /* Build configuration list for PBXProject "ATNavigationBarService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C419422619D3771900C85F8C /* Debug */,
+				C419422719D3771900C85F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C419422819D3771900C85F8C /* Build configuration list for PBXNativeTarget "ATNavigationBarService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C419422919D3771900C85F8C /* Debug */,
+				C419422A19D3771900C85F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C419422B19D3771900C85F8C /* Build configuration list for PBXNativeTarget "ATNavigationBarServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C419422C19D3771900C85F8C /* Debug */,
+				C419422D19D3771900C85F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C419423319D377F000C85F8C /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C419423419D377F000C85F8C /* Debug */,
+				C419423519D377F000C85F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C41941FD19D3771900C85F8C /* Project object */;
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gUe-Cc-Spe">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Nav Bar Height Test-->
+        <scene sceneID="c6g-6R-2yv">
+            <objects>
+                <viewController id="QXf-HV-cCT" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="W2C-0T-wfC"/>
+                        <viewControllerLayoutGuide type="bottom" id="N5E-mA-0Jz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KwK-EI-3Xp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKT-Rm-8cj">
+                                <rect key="frame" x="16" y="104" width="120" height="30"/>
+                                <state key="normal" title="Minimize Nav Bar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hideNav:" destination="QXf-HV-cCT" eventType="touchUpInside" id="lWF-PO-zng"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVw-wp-rbC">
+                                <rect key="frame" x="459" y="104" width="125" height="30"/>
+                                <state key="normal" title="Maximize Nav Bar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showNav:" destination="QXf-HV-cCT" eventType="touchUpInside" id="3Aj-jE-Cj6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBn-gD-vZc">
+                                <rect key="frame" x="456" y="174" width="128" height="30"/>
+                                <state key="normal" title="Show Nav Buttons">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showNavBarButtons:" destination="QXf-HV-cCT" eventType="touchUpInside" id="hno-Mn-LPH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yww-eV-PjM">
+                                <rect key="frame" x="16" y="174" width="121" height="30"/>
+                                <state key="normal" title="Hide Nav Buttons">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hideNavBarButtons:" destination="QXf-HV-cCT" eventType="touchUpInside" id="rVF-BY-EVy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nKT-Rm-8cj" firstAttribute="leading" secondItem="Yww-eV-PjM" secondAttribute="leading" id="4O8-44-0Je"/>
+                            <constraint firstItem="bVw-wp-rbC" firstAttribute="top" secondItem="W2C-0T-wfC" secondAttribute="bottom" constant="40" id="6eq-uB-hsD"/>
+                            <constraint firstAttribute="trailing" secondItem="bVw-wp-rbC" secondAttribute="trailing" constant="16" id="JWa-QT-njQ"/>
+                            <constraint firstItem="bVw-wp-rbC" firstAttribute="trailing" secondItem="zBn-gD-vZc" secondAttribute="trailing" id="RSK-OG-K8G"/>
+                            <constraint firstItem="nKT-Rm-8cj" firstAttribute="leading" secondItem="KwK-EI-3Xp" secondAttribute="leading" constant="16" id="cm9-5O-9f8"/>
+                            <constraint firstItem="nKT-Rm-8cj" firstAttribute="top" secondItem="W2C-0T-wfC" secondAttribute="bottom" constant="40" id="dv3-oC-XTZ"/>
+                            <constraint firstItem="zBn-gD-vZc" firstAttribute="top" secondItem="bVw-wp-rbC" secondAttribute="bottom" constant="40" id="rDf-uY-LJP"/>
+                            <constraint firstItem="Yww-eV-PjM" firstAttribute="top" secondItem="nKT-Rm-8cj" secondAttribute="bottom" constant="40" id="tEC-CR-d2O"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Nav Bar Height Test" id="WoW-bN-cFH">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="UYe-3C-vte"/>
+                        <barButtonItem key="leftBarButtonItem" title="Left Button" id="mxP-Ow-8el"/>
+                        <barButtonItem key="rightBarButtonItem" title="Right Button" id="8w4-Mb-0Nu"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="view" destination="KwK-EI-3Xp" id="Hsg-wD-uIt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FvI-BA-X5D" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1934" y="365"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JQG-RI-4fe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gUe-Cc-Spe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MtF-pO-BPI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QXf-HV-cCT" kind="relationship" relationship="rootViewController" id="kQR-yq-8tF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BrH-qe-0dM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1122" y="365"/>
+        </scene>
+    </scenes>
+</document>
