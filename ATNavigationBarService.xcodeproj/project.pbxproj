@@ -29,6 +29,7 @@
 		C419421919D3771900C85F8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C419421719D3771900C85F8C /* LaunchScreen.xib */; };
 		C419422519D3771900C85F8C /* ATNavigationBarServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C419422419D3771900C85F8C /* ATNavigationBarServiceTests.m */; };
 		C419423C19D379B100C85F8C /* ATNavigationBarService.m in Sources */ = {isa = PBXBuildFile; fileRef = C419423B19D379B100C85F8C /* ATNavigationBarService.m */; };
+		C419424219D386FC00C85F8C /* .clang-format in Resources */ = {isa = PBXBuildFile; fileRef = C419424119D386FC00C85F8C /* .clang-format */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C419422419D3771900C85F8C /* ATNavigationBarServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNavigationBarServiceTests.m; sourceTree = "<group>"; };
 		C419423A19D379B100C85F8C /* ATNavigationBarService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNavigationBarService.h; sourceTree = "<group>"; };
 		C419423B19D379B100C85F8C /* ATNavigationBarService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNavigationBarService.m; sourceTree = "<group>"; };
+		C419424119D386FC00C85F8C /* .clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".clang-format"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		C419420819D3771900C85F8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C419424119D386FC00C85F8C /* .clang-format */,
 				C419420919D3771900C85F8C /* Info.plist */,
 				C419420A19D3771900C85F8C /* main.m */,
 			);
@@ -232,6 +235,7 @@
 			files = (
 				C419421419D3771900C85F8C /* Main.storyboard in Resources */,
 				C419421919D3771900C85F8C /* LaunchScreen.xib in Resources */,
+				C419424219D386FC00C85F8C /* .clang-format in Resources */,
 				C419421619D3771900C85F8C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +480,7 @@
 				C419422A19D3771900C85F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C419422B19D3771900C85F8C /* Build configuration list for PBXNativeTarget "ATNavigationBarServiceTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +489,7 @@
 				C419422D19D3771900C85F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C419423319D377F000C85F8C /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +498,7 @@
 				C419423519D377F000C85F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

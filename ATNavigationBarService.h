@@ -28,7 +28,7 @@
  *  @param shouldHideItems if true, hide navBar items when minimizing
  */
 - (void)changeNavigationBarHeight:(CGFloat)height
-                 onViewController:(UIViewController*)viewController
+                 onViewController:(UIViewController *)viewController
                      hideBarItems:(BOOL)shouldHideItems;
 /**
  *  Minimize a view controller's navigation bar
@@ -37,7 +37,7 @@
  *  @param height         height to minimize to
  *  @param shouldHideItems if true, hide navBar items if minimizing
  */
-- (void)minimizeNavOnViewController:(UIViewController*)viewController
+- (void)minimizeNavOnViewController:(UIViewController *)viewController
                            toHeight:(CGFloat)height
                        hideBarItems:(BOOL)shouldHideItems;
 /**
@@ -46,19 +46,19 @@
  *  @param viewController view controller holding the navigation bar
  *  @param height         height to maximize to
  */
-- (void)maximizeNavOnViewController:(UIViewController*)viewController
+- (void)maximizeNavOnViewController:(UIViewController *)viewController
                            toHeight:(CGFloat)height;
 /**
  *  Hides navigation bar button items
  *
  *  @param viewController View controller holding the navigation bar
  */
-- (void)hideBarItemsOnViewController:(UIViewController*)viewController;
+- (void)hideBarItemsOnViewController:(UIViewController *)viewController;
 /**
  *  Shows navigation bar button items
  *
  *  @param viewController View controller holding the navigation bar
  */
-- (void)showBarItemsOnViewController:(UIViewController*)viewController;
+- (void)showBarItemsOnViewController:(UIViewController *)viewController;
 
 @end

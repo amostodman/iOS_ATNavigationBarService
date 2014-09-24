@@ -11,32 +11,38 @@
 
 @interface ViewController ()
 
-@property (nonatomic,strong) ATNavigationBarService *service;
+@property (nonatomic, strong) ATNavigationBarService *service;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)hideNav:(id)sender {
+- (IBAction)hideNav:(id)sender
+{
     [[ATNavigationBarService sharedInstance] changeNavigationBarHeight:20.0 onViewController:self hideBarItems:YES];
 }
-- (IBAction)showNav:(id)sender {
+- (IBAction)showNav:(id)sender
+{
     [[ATNavigationBarService sharedInstance] changeNavigationBarHeight:44.0 onViewController:self hideBarItems:YES];
 }
-- (IBAction)hideNavBarButtons:(id)sender {
+- (IBAction)hideNavBarButtons:(id)sender
+{
     [[ATNavigationBarService sharedInstance] hideBarItemsOnViewController:self];
 }
-- (IBAction)showNavBarButtons:(id)sender {
+- (IBAction)showNavBarButtons:(id)sender
+{
     [[ATNavigationBarService sharedInstance] showBarItemsOnViewController:self];
 }
 @end
