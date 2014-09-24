@@ -7,6 +7,8 @@ ATNavigationBarService is an iOS class which mainly provides methods for modifyi
 
 Quick Start
 
+Copy [ATNavigationBarService.h] and [ATNavigationBarService.m] into your project.
+
 Import the ATNavigationBarService class files into your class file you wish to modify the UINavigationBar on.
 Most likely a UIViewController which is inside a UINavigationController's array or viewControllers.
 
@@ -19,3 +21,5 @@ Now just use the methods when applicable:
 
     /* Show the nav bar */
     [[ATNavigationBarService sharedInstance] changeNavigationBarHeight:44.0 onViewController:self hideBarItems:YES];
+
+This repository also includes a buildable app that demonstrates usage. 
