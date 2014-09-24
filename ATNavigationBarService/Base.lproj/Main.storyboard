@@ -67,8 +67,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Nav Bar Height Test" id="WoW-bN-cFH">
                         <barButtonItem key="backBarButtonItem" title="Back" id="UYe-3C-vte"/>
-                        <barButtonItem key="leftBarButtonItem" title="Left Button" id="mxP-Ow-8el"/>
-                        <barButtonItem key="rightBarButtonItem" title="Right Button" id="8w4-Mb-0Nu"/>
+                        <barButtonItem key="leftBarButtonItem" title="Left" id="mxP-Ow-8el"/>
+                        <barButtonItem key="rightBarButtonItem" title="Right" id="8w4-Mb-0Nu"/>
                     </navigationItem>
                     <connections>
                         <outlet property="view" destination="KwK-EI-3Xp" id="Hsg-wD-uIt"/>

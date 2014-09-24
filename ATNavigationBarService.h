@@ -13,6 +13,10 @@
  */
 @interface ATNavigationBarService : NSObject
 /**
+ *  Returns true if the nav bar items are hidden
+ */
+@property (nonatomic, assign) BOOL navBarItemsAreHidden;
+/**
  *  Singleton for convenience
  *
  *  @return Singleton instance of this class

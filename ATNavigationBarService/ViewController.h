@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, assign) CGFloat currentNavBarHeight;
+
 @end

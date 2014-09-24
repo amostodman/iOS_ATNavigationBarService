@@ -16,7 +16,6 @@
 @property (nonatomic, assign) CGFloat navBarMaximizedHeight;
 @property (nonatomic, assign) BOOL navBarIsDecreasingHeight;
 @property (nonatomic, assign) BOOL navBarIsIncreasingHeight;
-@property (nonatomic, assign) BOOL navBarItemsAreHidden;
 
 @end
 
@@ -71,6 +70,20 @@
     //maximizing
     if (frame.size.height < height) {
         [self maximizeNavOnViewController:viewController toHeight:height];
+    }
+
+    // Possibly for a first load, or return from background
+    if (frame.size.height == height) {
+        // show the buttons just in case
+        if (!self.rightNavBarButtons.count) {
+            self.rightNavBarButtons = nil;
+            self.rightNavBarButtons = [[NSMutableArray alloc] initWithArray:[viewController.navigationItem rightBarButtonItems]];
+        }
+        if (!self.leftNavBarButtons.count) {
+            self.leftNavBarButtons = nil;
+            self.leftNavBarButtons = [[NSMutableArray alloc] initWithArray:[viewController.navigationItem leftBarButtonItems]];
+        }
+        [self showBarItemsOnViewController:viewController];
     }
 }
 
