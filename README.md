@@ -10,7 +10,7 @@ Quick Start
 Copy the class files [ATNavigationBarService.h](ATNavigationBarService.h) and [ATNavigationBarService.m](ATNavigationBarService.m) into your project.
 
 Import the ATNavigationBarService class into the class file you wish to modify the UINavigationBar on.
-Most likely a UIViewController which is inside a UINavigationController's array or viewControllers.
+Most likely a UIViewController which is inside a UINavigationController's array of viewControllers.
 
     import "ATNavigationBarService.h"
 
